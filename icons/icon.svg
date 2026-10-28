@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1030"/><stop offset="1" stop-color="#2d1550"/></linearGradient>
+<radialGradient id="moon" cx=".38" cy=".35" r=".8"><stop offset="0" stop-color="#ffe8b4"/><stop offset=".62" stop-color="#ffb35a"/><stop offset="1" stop-color="#ff7a1a"/></radialGradient>
+<radialGradient id="glow"><stop offset=".55" stop-color="#ff7a1a" stop-opacity=".45"/><stop offset="1" stop-color="#ff7a1a" stop-opacity="0"/></radialGradient></defs>
+<style>
+.z-skin{fill:#a9c98d}.z-skin-sh{fill:#7f9f68}
+.z-hair{fill:#f6f3f8;stroke:#cdc7da;stroke-width:2}
+.z-shirt{fill:#3345d6}.z-collar{fill:#5566ee}
+.z-patch{fill:#6b36b0;stroke:#d9c4ff;stroke-width:2;stroke-dasharray:5 4}
+.z-lip{fill:#9a6a86}
+.z-line{fill:none;stroke:#2a1a2e;stroke-linecap:round;stroke-linejoin:round}
+.z-lens{fill:rgba(255,255,255,.13);stroke:#2a1a2e;stroke-width:3}
+.z-white{fill:#eef3c9}.z-pupil{fill:#2a1a2e}
+.e-happy,.e-dead{display:none}
+</style>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="256" cy="250" r="215" fill="url(#glow)"/>
+<circle cx="256" cy="245" r="150" fill="url(#moon)"/>
+<svg x="76" y="92" width="360" height="420" viewBox="30 28 260 305" overflow="hidden">
+    <path class="z-shirt" d="M30 340 C30 288 84 262 160 262 C236 262 290 288 290 340 Z"/>
+    <path class="z-skin-sh" d="M136 232 H184 V272 Q160 290 136 272 Z"/>
+    <path class="z-collar" d="M116 266 L160 308 L146 260 Z"/>
+    <path class="z-collar" d="M204 266 L160 308 L174 260 Z"/>
+    <circle cx="160" cy="324" r="3.5" fill="#cfd6ff"/>
+    <rect class="z-patch" x="214" y="294" width="42" height="30" rx="4" transform="rotate(-12 235 309)"/>
+    <ellipse class="z-skin-sh" cx="82" cy="178" rx="13" ry="21"/>
+    <ellipse class="z-skin-sh" cx="238" cy="178" rx="13" ry="21"/>
+    <ellipse class="z-skin" cx="160" cy="168" rx="78" ry="90"/>
+    <circle class="z-skin-sh" cx="214" cy="140" r="10" opacity=".55"/>
+    <circle class="z-skin-sh" cx="206" cy="150" r="5" opacity=".5"/>
+    <circle class="z-hair" cx="82" cy="146" r="18"/>
+    <circle class="z-hair" cx="238" cy="146" r="18"/>
+    <circle class="z-hair" cx="92" cy="118" r="26"/>
+    <circle class="z-hair" cx="228" cy="118" r="26"/>
+    <circle class="z-hair" cx="120" cy="92" r="30"/>
+    <circle class="z-hair" cx="200" cy="92" r="30"/>
+    <circle class="z-hair" cx="140" cy="72" r="20"/>
+    <circle class="z-hair" cx="184" cy="72" r="20"/>
+    <circle class="z-hair" cx="160" cy="84" r="34"/>
+    <ellipse class="z-hair" cx="125" cy="140" rx="17" ry="5.5"/>
+    <ellipse class="z-hair" cx="195" cy="140" rx="17" ry="5.5"/>
+    <path class="z-line" d="M108 192 Q125 202 142 192 M178 192 Q195 202 212 192" stroke-width="3" opacity=".55"/>
+    <g class="e-idle">
+      <ellipse class="z-white" cx="125" cy="172" rx="10" ry="11"/>
+      <ellipse class="z-white" cx="195" cy="172" rx="10" ry="11"/>
+      <circle class="z-pupil" cx="127" cy="174" r="4.5"/>
+      <circle class="z-pupil" cx="193" cy="174" r="4.5"/>
+    </g>
+    <g class="e-happy">
+      <path class="z-line" d="M111 177 Q125 161 139 177 M181 177 Q195 161 209 177" stroke-width="4.5"/>
+    </g>
+    <g class="e-dead">
+      <path class="z-line" d="M115 162 L135 182 M135 162 L115 182 M185 162 L205 182 M205 162 L185 182" stroke-width="4.5"/>
+    </g>
+    <circle class="z-lens" cx="125" cy="170" r="25"/>
+    <circle class="z-lens" cx="195" cy="170" r="25"/>
+    <path class="z-line" d="M150 166 Q160 158 170 166 M100 166 L84 160 M220 166 L236 160" stroke-width="3"/>
+    <path class="z-skin-sh" d="M160 178 Q150 204 158 211 Q164 213 171 208 Q165 200 163 186 Z" opacity=".75"/>
+    <path class="z-hair" d="M116 224 Q136 205 160 217 Q184 205 204 224 Q186 242 160 232 Q134 242 116 224 Z"/>
+    <path class="z-lip" d="M133 245 Q160 237 187 245 Q160 263 133 245 Z"/>
+    <path class="z-line" d="M131 246 Q160 255 189 246" stroke-width="3.5"/>
+    <path class="z-line" d="M139 238 L142 257 M147 241 L149 259 M155 242 L156 260 M163 242 L164 260 M171 241 L172 259 M179 238 L181 257" stroke-width="3.2"/>
+    <path class="z-line" d="M189 247 Q198 253 195 266" stroke-width="2.6"/>
+    <path class="z-line" d="M90 205 L112 213 M96 199 L98 209 M102 202 L104 212 M108 205 L110 215" stroke-width="2.6"/>
+  </svg>
+</svg>

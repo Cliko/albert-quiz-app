@@ -1,0 +1,39 @@
+{
+  "id": "/albert-quiz-app/",
+  "name": "Le quiz d'Albert",
+  "short_name": "Albert",
+  "description": "Quiz de cybersécurité niveau débutant, par Albert.",
+  "lang": "fr",
+  "start_url": "/albert-quiz-app/",
+  "scope": "/albert-quiz-app/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#120c1a",
+  "theme_color": "#120c1a",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
